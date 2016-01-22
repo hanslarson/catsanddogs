@@ -10,12 +10,21 @@ function hamster (name, breed, age, sound, imgUrl) {
 }
 
 // hamster Instances
+<<<<<<< HEAD
 var chiquitaBanana = new hamster('hammy the hamster', 'rodent', 100, 'squish squish','https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBXU_b2Mf32szvfGA_po31rVn5Akt7aXvBEdhyA7lMBXZjubKj');
 
 
 
 // hamster Array
 var hamsterArray = [chiquitaBanana];
+=======
+var chiquitaBanana = new hamster('hammy the hamster', 'rodent', 100, 'squish squish','https://s-media-cache-ak0.pinimg.com/236x/ea/ce/66/eace66909626c5a34c0dfcb75286f958.jpg');
+var Emy = new hamster('Emy','shepard mix', 7, 'woof woof!','https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBXU_b2Mf32szvfGA_po31rVn5Akt7aXvBEdhyA7lMBXZjubKj' );
+
+
+// hamster Array
+var hamsterArray = [chiquitaBanana, Emy];
+>>>>>>> 0d2d756... part 2 step 3, add hamster js
 
 //Output to HTML
 for (i=0;i < hamsterArray.length; i++) {
