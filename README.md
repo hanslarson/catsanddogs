@@ -35,3 +35,25 @@
     * Add reptile container div to index.html on master branch.      
     * Try and merge feat02 with master. 
     * settle all conflicts.
+
+
+#### Part-4 Rebasing:
+
+1. Create a new branch 'feat-rebase'.
+2. Make a change in your index.html  (ex. add name of page to your <title> tag)
+3. Commit this change.
+4. Switch back to your master branch.
+5. Add 'fluffy' to your catArray in cat.js, then commit this change.
+6. Now switch back to your feat-rebase branch.
+7. Rebase your branch with the upstream changes in master
+  `$ git rebase master`
+8. There should be no conflict to resolve.  Check your git log `$ git log`.  Your local commit should be at top of heap.
+
+#### Part-5 Cherry Pick and Reset:
+1. Go to your local branch.
+2. Create at least three new commits.
+3. Switch back to master and try cherry-picking one of the commits.
+  `$ git cherry-pick <commit id> `
+4. check your git log and git status.
+5. Let's try reseting to previous commit (not the one with cherry-pick).
+
